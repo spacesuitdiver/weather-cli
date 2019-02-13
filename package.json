@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/spacesuitdiver/weather-cli#readme",
   "dependencies": {
+    "node-geocoder": "^3.22.0",
     "weather-js": "^2.0.0"
   }
 }
