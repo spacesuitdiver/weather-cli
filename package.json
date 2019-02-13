@@ -1,0 +1,22 @@
+{
+  "name": "weather-cli",
+  "version": "1.0.0",
+  "description": "A CLI tool to get me the weather.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spacesuitdiver/weather-cli.git"
+  },
+  "author": "Chris LeBlanc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spacesuitdiver/weather-cli/issues"
+  },
+  "homepage": "https://github.com/spacesuitdiver/weather-cli#readme",
+  "dependencies": {
+    "weather-js": "^2.0.0"
+  }
+}
