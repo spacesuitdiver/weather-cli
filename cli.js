@@ -7,7 +7,6 @@ var args = process.argv.slice(2);
 var address = args.join(' ');
 
 console.log('Welcome to the Weather CLI');
-
 var options = {
   provider: 'mapquest',
  
@@ -18,7 +17,6 @@ var options = {
 };
  
 var geocoder = NodeGeocoder(options);
- 
 // Using callback
 geocoder.geocode(address, function(err, res) {
   if (!err) {
